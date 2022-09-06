@@ -4,10 +4,10 @@ module.exports = {
 	theme: {
 		extend: {},
 		screens: {
-			phone: '550px',
+			phone: '650px',
 			tablet: '750px',
 			laptop: '950px',
-			desktop: '1280px',
+			desktop: '1440px',
 		},
 	},
 	plugins: [],
