@@ -35,7 +35,7 @@ export default function Home({ posts }) {
 						{/* Header */}
 						<div className='flex items-center justify-between pt-3 pb-5'>
 							<div className='text-xl'> 777 properties </div>
-							<button className='flex items-center border-stone-300 border px-3 py-1 rounded-md'>
+							<button className='flex items-center bg-[#a8dee0] border-stone-600 border px-3 py-1 rounded-md'>
 								{/* filter icon */}
 								<svg
 									xmlns='http://www.w3.org/2000/svg'
