@@ -49,8 +49,8 @@ export default function Filters() {
 								<Dialog.Panel className='relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg'>
 									{/* Filters content goes here */}
 									<div className='bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4'>
-										<div className='sm:flex sm:items-start'>
-											<div className='mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left'>
+										<div className='sm:flex sm:items-start justify-start'>
+											<div className='mt-3 text-left sm:mt-0 sm:ml-4 sm:text-left'>
 												<div className='mt-2'>
 													<p className='text-sm text-gray-500'>
 														<PriceSlider initialMin={0} initialMax={100} min={0} max={10000} step={100} priceCap={1000} />
@@ -59,6 +59,24 @@ export default function Filters() {
 												<div className='mt-2'>
 													<p className='text-sm text-gray-500'>
 														<TypeList />
+													</p>
+												</div>
+												<div className='mt-3 px-4'>
+													<p className='flex flex-col gap-y-2'>
+														<label htmlFor='zimmer'>Zimmer</label>
+														<input className='border py-1.5 ' type='text' name='zimmer' />
+													</p>
+												</div>
+												<div className='mt-3 px-4'>
+													<p className='flex flex-col gap-y-2'>
+														<label htmlFor='space'>Space</label>
+														<input className='border py-1.5 ' type='text' name='space' />
+													</p>
+												</div>
+												<div className='mt-3 px-4'>
+													<p className='flex flex-col gap-y-2'>
+														<label htmlFor='kanton'>Kanton</label>
+														<input className='border py-1.5 ' type='text' name='kanton' />
 													</p>
 												</div>
 											</div>
